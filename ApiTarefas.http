@@ -1,0 +1,6 @@
+@ApiTarefas_HostAddress = http://localhost:5159
+
+GET {{ApiTarefas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
