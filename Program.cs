@@ -1,5 +1,6 @@
 using ApiTarefas.Database;
 using ApiTarefas.Models;
+using ApiTarefas.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,8 @@ builder.Services.AddDbContext<TarefasContext>(Options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // Add services to the container.
+
+builder.Services.AddScoped<TarefaService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

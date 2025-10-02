@@ -1,9 +1,8 @@
 namespace ApiTarefas.ModelViews;
 
 
-public struct HomeView
+public struct ErroView
 {
     public required string Mensagem { get; set; }
-    public required string Documentacao { get; set; }
 
 }
