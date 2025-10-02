@@ -1,7 +1,3 @@
-Perfeito — aqui vai uma versão aprimorada do seu **README**, com uma estrutura mais visual, organizada e descritiva, no estilo usado em projetos GitHub de portfólio.
-
----
-
 ## 🧩 Gerenciador de Tarefas em C# (.NET + MySQL)
 
 ### 📘 Descrição do Projeto
